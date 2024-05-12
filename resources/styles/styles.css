@@ -1,0 +1,46 @@
+ #pictureOfMe {
+   padding: 0 6px;
+   width: 90%;
+   height: 90%;
+   grid-column-start: 1;
+   grid-column-end: 1;
+ }
+
+ h1 {
+   grid-column-start: 1;
+   grid-column-end: 4;
+ }
+
+ #personalBackground {
+   grid-column-start: 2;
+   grid-column-end: 5;
+   text-align: left;
+ }
+
+ .container {
+   display: grid;
+   display: grid;
+   grid-template-columns: auto auto auto auto;
+   padding: 2px;
+ }
+
+
+ #experience {
+   grid-column-start: 1;
+   grid-column-end: 3;
+ }
+
+ #programmingLanguages {
+   grid-column-start: 3;
+   grid-column-end: 5;
+ }
+
+ #achievements {
+   grid-column-start: 1;
+   grid-column-end: 3;
+ }
+
+ #games {
+   grid-column-start: 3;
+   grid-column-end: 5;
+ }
